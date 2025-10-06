@@ -49,7 +49,7 @@
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>What training do you want to enroll?</question_text>
+        <question_text>In what course do you want to enroll?</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -58,7 +58,7 @@
         <record/>
         <record_producer_table>x_1812797_trainnow_training_enrollment</record_producer_table>
         <reference>x_1812797_trainnow_training_schedule</reference>
-        <reference_qual/>
+        <reference_qual>javascritp: new x_1812797_trainnow.TrainNowUtils().refQualTraining()</reference_qual>
         <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
@@ -77,16 +77,16 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-06 18:06:38</sys_created_on>
-        <sys_id>9ec4772fc3d432101d20d60d050131c4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>What training do you want to enroll?</sys_name>
+        <sys_created_on>2025-10-06 19:08:41</sys_created_on>
+        <sys_id>a02384b3c35832101d20d60d05013114</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>In what course do you want to enroll?</sys_name>
         <sys_package display_value="TrainNow" source="x_1812797_trainnow">b56462a7c35032101d20d60d050131b6</sys_package>
         <sys_policy/>
         <sys_scope display_value="TrainNow">b56462a7c35032101d20d60d050131b6</sys_scope>
-        <sys_update_name>item_option_new_9ec4772fc3d432101d20d60d050131c4</sys_update_name>
+        <sys_update_name>item_option_new_a02384b3c35832101d20d60d05013114</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-06 18:06:38</sys_updated_on>
+        <sys_updated_on>2025-10-06 19:31:58</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
@@ -94,7 +94,7 @@
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
         <variable_set/>
@@ -106,22 +106,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=9ec4772fc3d432101d20d60d050131c4"/>
-    <fx_price action="delete_multiple" query="id=9ec4772fc3d432101d20d60d050131c4"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=a02384b3c35832101d20d60d05013114"/>
+    <fx_price action="delete_multiple" query="id=a02384b3c35832101d20d60d05013114"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>9ec4772fc3d432101d20d60d050131c4</id>
+        <id>a02384b3c35832101d20d60d05013114</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-06 18:06:38</sys_created_on>
-        <sys_id>a125ff6fc3d432101d20d60d050131de</sys_id>
+        <sys_created_on>2025-10-06 19:08:41</sys_created_on>
+        <sys_id>5253c8b3c35832101d20d60d050131c7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-06 18:06:38</sys_updated_on>
+        <sys_updated_on>2025-10-06 19:08:41</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -129,16 +129,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>9ec4772fc3d432101d20d60d050131c4</id>
+        <id>a02384b3c35832101d20d60d05013114</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-06 18:06:38</sys_created_on>
-        <sys_id>ad25ff6fc3d432101d20d60d050131dc</sys_id>
+        <sys_created_on>2025-10-06 19:08:41</sys_created_on>
+        <sys_id>d253c8b3c35832101d20d60d050131c6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-06 18:06:38</sys_updated_on>
+        <sys_updated_on>2025-10-06 19:08:41</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

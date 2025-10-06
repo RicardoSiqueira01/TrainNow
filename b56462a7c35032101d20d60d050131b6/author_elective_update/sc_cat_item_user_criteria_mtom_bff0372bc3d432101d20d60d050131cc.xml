@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Enroll in a Training">a5ef6fa7c3d432101d20d60d050131ff</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 17:48:30</sys_created_on>
+        <sys_id>bff0372bc3d432101d20d60d050131cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Enroll in a Training.TrainNow Users</sys_name>
+        <sys_package display_value="TrainNow" source="x_1812797_trainnow">b56462a7c35032101d20d60d050131b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainNow">b56462a7c35032101d20d60d050131b6</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_bff0372bc3d432101d20d60d050131cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 17:48:30</sys_updated_on>
+        <user_criteria display_value="TrainNow Users">6dc0332bc3d432101d20d60d05013181</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainNow">b56462a7c35032101d20d60d050131b6</application>
+        <file_path/>
+        <instance_id>02e794483bfbce94c55a348aa4e45ac0</instance_id>
+        <instance_name>dev281964</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_bff0372bc3d432101d20d60d050131cc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Enroll in a Training">a5ef6fa7c3d432101d20d60d050131ff</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-06 17:48:30</sys_created_on><sys_id>bff0372bc3d432101d20d60d050131cc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Enroll in a Training.TrainNow Users</sys_name><sys_package display_value="TrainNow" source="x_1812797_trainnow">b56462a7c35032101d20d60d050131b6</sys_package><sys_policy/><sys_scope display_value="TrainNow">b56462a7c35032101d20d60d050131b6</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_bff0372bc3d432101d20d60d050131cc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-06 17:48:30</sys_updated_on><user_criteria display_value="TrainNow Users">6dc0332bc3d432101d20d60d05013181</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>1249360299</payload_hash>
+        <record_name>Enroll in a Training.TrainNow Users</record_name>
+        <reverted_from/>
+        <source>5ff462a7c35032101d20d60d0501318f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 17:48:30</sys_created_on>
+        <sys_id>bbf0372bc3d432101d20d60d050131d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199baa3a5700000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 17:48:30</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>7ff0372b18d4321002da6473779f74cf</update_guid>
+        <update_guid_history>7ff0372b18d4321002da6473779f74cf:1249360299</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Enroll in a Training.TrainNow Users">1ed2c833c35832101d20d60d050131fd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 19:06:30</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>7a350e0fad004b9a90193088e918dd64</sys_id>
+        <sys_metadata>bff0372bc3d432101d20d60d050131cc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Enroll in a Training.TrainNow Users</sys_name>
+        <sys_package display_value="TrainNow" source="x_1812797_trainnow">b56462a7c35032101d20d60d050131b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TrainNow">b56462a7c35032101d20d60d050131b6</sys_scope>
+        <sys_scope_delete display_value="">1c4bbc884d4f46ed98821453847412f9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_bff0372bc3d432101d20d60d050131cc</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_bff0372bc3d432101d20d60d050131cc">bbf0372bc3d432101d20d60d050131d0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 19:06:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
