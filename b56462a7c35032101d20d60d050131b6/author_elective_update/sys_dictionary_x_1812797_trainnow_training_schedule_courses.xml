@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="courses" table="x_1812797_trainnow_training_schedule">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Courses</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>true</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>courses</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <name>x_1812797_trainnow_training_schedule</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1812797_trainnow_courses">x_1812797_trainnow_courses</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 17:16:27</sys_created_on>
+        <sys_id>dea96f6fc39432101d20d60d05013190</sys_id>
+        <sys_name>Courses</sys_name>
+        <sys_package display_value="TrainNow" source="x_1812797_trainnow">b56462a7c35032101d20d60d050131b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainNow">b56462a7c35032101d20d60d050131b6</sys_scope>
+        <sys_update_name>sys_dictionary_x_1812797_trainnow_training_schedule_courses</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 18:11:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainNow">b56462a7c35032101d20d60d050131b6</application>
+        <file_path/>
+        <instance_id>02e794483bfbce94c55a348aa4e45ac0</instance_id>
+        <instance_name>dev281964</instance_name>
+        <name>sys_dictionary_x_1812797_trainnow_training_schedule_courses</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="courses" table="x_1812797_trainnow_training_schedule"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Courses</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>true</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>courses</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>x_1812797_trainnow_training_schedule</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="x_1812797_trainnow_courses">x_1812797_trainnow_courses</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-06 17:16:27</sys_created_on><sys_id>dea96f6fc39432101d20d60d05013190</sys_id><sys_name>Courses</sys_name><sys_package display_value="TrainNow" source="x_1812797_trainnow">b56462a7c35032101d20d60d050131b6</sys_package><sys_policy/><sys_scope display_value="TrainNow">b56462a7c35032101d20d60d050131b6</sys_scope><sys_update_name>sys_dictionary_x_1812797_trainnow_training_schedule_courses</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-06 18:11:04</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-1322296776</payload_hash>
+        <record_name>Training Schedule.Courses</record_name>
+        <reverted_from/>
+        <source>5ff462a7c35032101d20d60d0501318f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 18:11:04</sys_created_on>
+        <sys_id>52263befc3d432101d20d60d05013166</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199bab84daa0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 18:11:04</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>d6263befdfd43210a6c9ea1a0e6b1165</update_guid>
+        <update_guid_history>d6263befdfd43210a6c9ea1a0e6b1165:-1322296776,fea9ef6f5b943210d3d46fb9c36d0722:-506001835,66a9af6f059432106b8a553527002098:820601344,0029236f989432104b6837795373ee79:-980563196,ca61836bd4d032109e69a39325c7d210:-1322296776,b961436bf8d03210a9c08e7f2a887097:820601344,0ea0432b93d03210f5b4dd8c7ad3ed1d:1497804553,92fafa2396d03210d5774f31f249f0f3:-506001835,8afafa231fd0321064fada5d09d9789d:820601344</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 18:18:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>196352dbab304100831687c1bf519840</sys_id>
+        <sys_metadata>dea96f6fc39432101d20d60d05013190</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Courses</sys_name>
+        <sys_package display_value="TrainNow" source="x_1812797_trainnow">b56462a7c35032101d20d60d050131b6</sys_package>
+        <sys_parent display_value="">e659676fc39432101d20d60d0501315d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TrainNow">b56462a7c35032101d20d60d050131b6</sys_scope>
+        <sys_scope_delete display_value="">1c4bbc884d4f46ed98821453847412f9</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1812797_trainnow_training_schedule_courses</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1812797_trainnow_training_schedule_courses">52263befc3d432101d20d60d05013166</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 18:18:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

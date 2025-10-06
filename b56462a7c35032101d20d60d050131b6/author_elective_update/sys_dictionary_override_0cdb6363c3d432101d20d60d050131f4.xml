@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="DELETE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value/>
+        <default_value_override>false</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>assigned_to</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>x_1812797_trainnow_training_schedule</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual>roles=itil</reference_qual>
+        <reference_qual_override>true</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 17:25:51</sys_created_on>
+        <sys_id>0cdb6363c3d432101d20d60d050131f4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>assigned_to</sys_name>
+        <sys_package display_value="TrainNow" source="x_1812797_trainnow">b56462a7c35032101d20d60d050131b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainNow">b56462a7c35032101d20d60d050131b6</sys_scope>
+        <sys_update_name>sys_dictionary_override_0cdb6363c3d432101d20d60d050131f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 17:28:03</sys_updated_on>
+    </sys_dictionary_override>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainNow">b56462a7c35032101d20d60d050131b6</application>
+        <file_path/>
+        <instance_id>02e794483bfbce94c55a348aa4e45ac0</instance_id>
+        <instance_name>dev281964</instance_name>
+        <name>sys_dictionary_override_0cdb6363c3d432101d20d60d050131f4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override"><sys_dictionary_override action="INSERT_OR_UPDATE"><attributes/><attributes_override>false</attributes_override><base_table>task</base_table><calculation/><calculation_override>false</calculation_override><default_value/><default_value_override>false</default_value_override><dependent/><dependent_override>false</dependent_override><display_override>false</display_override><element>assigned_to</element><mandatory>false</mandatory><mandatory_override>false</mandatory_override><name>x_1812797_trainnow_training_schedule</name><read_only>false</read_only><read_only_override>false</read_only_override><reference_qual>roles=itil</reference_qual><reference_qual_override>true</reference_qual_override><sys_class_name>sys_dictionary_override</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-06 17:25:51</sys_created_on><sys_id>0cdb6363c3d432101d20d60d050131f4</sys_id><sys_mod_count>2</sys_mod_count><sys_name>assigned_to</sys_name><sys_package display_value="TrainNow" source="x_1812797_trainnow">b56462a7c35032101d20d60d050131b6</sys_package><sys_policy/><sys_scope display_value="TrainNow">b56462a7c35032101d20d60d050131b6</sys_scope><sys_update_name>sys_dictionary_override_0cdb6363c3d432101d20d60d050131f4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-06 17:28:03</sys_updated_on></sys_dictionary_override></record_update>]]></payload>
+        <payload_hash>1907886308</payload_hash>
+        <record_name>assigned_to</record_name>
+        <reverted_from/>
+        <source>5ff462a7c35032101d20d60d0501318f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 17:28:03</sys_created_on>
+        <sys_id>545c2f63c3d432101d20d60d050131f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199ba90ea530000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 17:28:03</sys_updated_on>
+        <type>Dictionary Entry Override</type>
+        <update_guid>985c2f630fd43210275b8fbcd6ebd3f1</update_guid>
+        <update_guid_history>985c2f630fd43210275b8fbcd6ebd3f1:1907886308,c4db63635ed432108d852d10da84cbfd:812231671,84db636370d43210963937a620aabff8:1109706120</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 18:18:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary_override">sys_dictionary_override</sys_db_object>
+        <sys_id>01777d6a5cf343b8840b3a581230a040</sys_id>
+        <sys_metadata>0cdb6363c3d432101d20d60d050131f4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assigned_to</sys_name>
+        <sys_package display_value="TrainNow" source="x_1812797_trainnow">b56462a7c35032101d20d60d050131b6</sys_package>
+        <sys_parent display_value="">2259676fc39432101d20d60d05013161</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TrainNow">b56462a7c35032101d20d60d050131b6</sys_scope>
+        <sys_scope_delete display_value="">1c4bbc884d4f46ed98821453847412f9</sys_scope_delete>
+        <sys_update_name>sys_dictionary_override_0cdb6363c3d432101d20d60d050131f4</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_override_0cdb6363c3d432101d20d60d050131f4">545c2f63c3d432101d20d60d050131f2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 18:18:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

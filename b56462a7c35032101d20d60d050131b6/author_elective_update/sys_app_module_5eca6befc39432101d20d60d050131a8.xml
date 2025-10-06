@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="TrainNow">9691876bc3d032101d20d60d05013115</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_1812797_trainnow_training_schedule">instructorDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="instructor" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Training Schedule</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1812797_trainnow_training_schedule</name>
+        <order>600</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1812797_trainnow.training_instructor</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 17:21:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5eca6befc39432101d20d60d050131a8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Your Training Schedules</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TrainNow" source="x_1812797_trainnow">b56462a7c35032101d20d60d050131b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainNow">b56462a7c35032101d20d60d050131b6</sys_scope>
+        <sys_update_name>sys_app_module_5eca6befc39432101d20d60d050131a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 17:34:12</sys_updated_on>
+        <timeline_page/>
+        <title>Your Training Schedules</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainNow">b56462a7c35032101d20d60d050131b6</application>
+        <file_path/>
+        <instance_id>02e794483bfbce94c55a348aa4e45ac0</instance_id>
+        <instance_name>dev281964</instance_name>
+        <name>sys_app_module_5eca6befc39432101d20d60d050131a8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="TrainNow">9691876bc3d032101d20d60d05013115</application><assessment/><device_type/><filter table="x_1812797_trainnow_training_schedule">instructorDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="instructor" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Training Schedule</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1812797_trainnow_training_schedule</name><order>600</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_1812797_trainnow.training_instructor</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-06 17:21:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5eca6befc39432101d20d60d050131a8</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Your Training Schedules</sys_name><sys_overrides/><sys_package display_value="TrainNow" source="x_1812797_trainnow">b56462a7c35032101d20d60d050131b6</sys_package><sys_policy/><sys_scope display_value="TrainNow">b56462a7c35032101d20d60d050131b6</sys_scope><sys_update_name>sys_app_module_5eca6befc39432101d20d60d050131a8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-06 17:34:12</sys_updated_on><timeline_page/><title>Your Training Schedules</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>94985024</payload_hash>
+        <record_name>Your Training Schedules</record_name>
+        <reverted_from/>
+        <source>5ff462a7c35032101d20d60d0501318f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 17:34:12</sys_created_on>
+        <sys_id>d2bd2fe3c3d432101d20d60d05013132</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199ba968b2d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 17:34:12</sys_updated_on>
+        <type>Module</type>
+        <update_guid>d6bd2fe35dd43210b2b028af28308031</update_guid>
+        <update_guid_history>d6bd2fe35dd43210b2b028af28308031:94985024,1eca6bef4994321008fe1a76d687b9aa:-1441622904</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Your Training Schedules">e6e73f63c31832101d20d60d0501319d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 18:18:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>1a52cdba170e4f6d83bf772e26a9dc49</sys_id>
+        <sys_metadata>5eca6befc39432101d20d60d050131a8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Your Training Schedules</sys_name>
+        <sys_package display_value="TrainNow" source="x_1812797_trainnow">b56462a7c35032101d20d60d050131b6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TrainNow">b56462a7c35032101d20d60d050131b6</sys_scope>
+        <sys_scope_delete display_value="">1c4bbc884d4f46ed98821453847412f9</sys_scope_delete>
+        <sys_update_name>sys_app_module_5eca6befc39432101d20d60d050131a8</sys_update_name>
+        <sys_update_version display_value="sys_app_module_5eca6befc39432101d20d60d050131a8">d2bd2fe3c3d432101d20d60d05013132</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 18:18:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

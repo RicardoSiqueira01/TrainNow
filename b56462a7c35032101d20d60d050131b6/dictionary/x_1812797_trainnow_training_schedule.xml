@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="e659676fc39432101d20d60d0501315d" extends="task" label="Training Schedule" max_length="40" name="x_1812797_trainnow_training_schedule" type="collection">
-        <element label="Instructor" max_length="32" name="instructor" reference="sys_user" reference_qual="roles=x_1812797_trainnow.training_instructor^EQ" reference_qual_condition="roles=x_1812797_trainnow.training_instructor^EQ" type="reference"/>
-        <element label="Training Date" max_length="40" name="training_date" type="glide_date"/>
-        <element label="Vacancies" max_length="40" name="vacancies" type="integer"/>
-        <element label="Courses" max_length="32" name="courses" reference="x_1812797_trainnow_courses" type="reference"/>
-    </element>
-</database>

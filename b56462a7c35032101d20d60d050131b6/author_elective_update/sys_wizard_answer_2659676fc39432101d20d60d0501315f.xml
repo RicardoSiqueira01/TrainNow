@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>Training Schedule</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Training Schedule</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">7816a07b5d3122104f34969735a7adb7</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 17:15:06</sys_created_on>
+        <sys_id>2659676fc39432101d20d60d0501315f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Training Schedule</sys_name>
+        <sys_package display_value="TrainNow" source="x_1812797_trainnow">b56462a7c35032101d20d60d050131b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainNow">b56462a7c35032101d20d60d050131b6</sys_scope>
+        <sys_update_name>sys_wizard_answer_2659676fc39432101d20d60d0501315f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 17:15:06</sys_updated_on>
+        <table/>
+        <target_url>x_1812797_trainnow_training_schedule.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainNow">b56462a7c35032101d20d60d050131b6</application>
+        <file_path/>
+        <instance_id>02e794483bfbce94c55a348aa4e45ac0</instance_id>
+        <instance_name>dev281964</instance_name>
+        <name>sys_wizard_answer_2659676fc39432101d20d60d0501315f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>Training Schedule</answer><button_label/><dependent_value/><element/><name>Training Schedule</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">7816a07b5d3122104f34969735a7adb7</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-06 17:15:06</sys_created_on><sys_id>2659676fc39432101d20d60d0501315f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Training Schedule</sys_name><sys_package display_value="TrainNow" source="x_1812797_trainnow">b56462a7c35032101d20d60d050131b6</sys_package><sys_policy/><sys_scope display_value="TrainNow">b56462a7c35032101d20d60d050131b6</sys_scope><sys_update_name>sys_wizard_answer_2659676fc39432101d20d60d0501315f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-06 17:15:06</sys_updated_on><table/><target_url>x_1812797_trainnow_training_schedule.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>788329590</payload_hash>
+        <record_name>Training Schedule</record_name>
+        <reverted_from/>
+        <source>47f1a611c32322101d20d60d05013165</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2025-08-23 05:29:52</sys_created_on>
+        <sys_id>d7e77f63c31832101d20d60d05013198</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>198d56794800000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Answer</type>
+        <update_guid>97e77f63f91832102a435cc2bbd2d498</update_guid>
+        <update_guid_history>97e77f63f91832102a435cc2bbd2d498:788329590</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 18:18:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>055d77389f9b4db4986eb15477c04311</sys_id>
+        <sys_metadata>2659676fc39432101d20d60d0501315f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Training Schedule</sys_name>
+        <sys_package display_value="TrainNow" source="x_1812797_trainnow">b56462a7c35032101d20d60d050131b6</sys_package>
+        <sys_parent display_value="Task">7816a07b5d3122104f34969735a7adb7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TrainNow">b56462a7c35032101d20d60d050131b6</sys_scope>
+        <sys_scope_delete display_value="">1c4bbc884d4f46ed98821453847412f9</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_2659676fc39432101d20d60d0501315f</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_2659676fc39432101d20d60d0501315f">d7e77f63c31832101d20d60d05013198</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 18:18:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
