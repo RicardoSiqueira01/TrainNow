@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="06adbee3c3d032101d20d60d050131aa" extends="task" label="Training Enrollment" max_length="40" name="x_1812797_trainnow_training_enrollment" type="collection">
-        <element label="Training" max_length="32" name="training" reference="x_1812797_trainnow_training_schedule" type="reference"/>
         <element label="Name" max_length="250" name="name" type="string"/>
     </element>
 </database>

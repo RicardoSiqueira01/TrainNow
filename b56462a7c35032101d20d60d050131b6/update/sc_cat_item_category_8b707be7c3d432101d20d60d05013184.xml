@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Enroll in a Training">a5ef6fa7c3d432101d20d60d050131ff</sc_cat_item>
+        <sc_category display_value="TrainNow">e060f7e7c3d432101d20d60d050131bc</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 17:46:16</sys_created_on>
+        <sys_id>8b707be7c3d432101d20d60d05013184</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TrainNow.Enroll in a Training</sys_name>
+        <sys_package display_value="TrainNow" source="x_1812797_trainnow">b56462a7c35032101d20d60d050131b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainNow">b56462a7c35032101d20d60d050131b6</sys_scope>
+        <sys_update_name>sc_cat_item_category_8b707be7c3d432101d20d60d05013184</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 17:46:16</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>
