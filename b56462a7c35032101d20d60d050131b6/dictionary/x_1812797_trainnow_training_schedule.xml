@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ba28766fc39032101d20d60d0501319d" label="Training Schedule" max_length="40" name="x_1812797_trainnow_training_schedule" type="collection">
+        <element label="Training Date" max_length="40" name="training_date" type="glide_date"/>
+        <element label="Vacancies" max_length="40" name="vacancies" type="integer"/>
+        <element label="Instructor" max_length="32" name="instructor" reference="sys_user" type="reference"/>
+        <element label="Courses" max_length="32" name="courses" reference="x_1812797_trainnow_courses" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="courses"/>
+        </index>
+        <index name="index2">
+            <element name="instructor"/>
+        </index>
+    </element>
+</database>
