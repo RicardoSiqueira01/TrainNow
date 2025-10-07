@@ -14,6 +14,7 @@ TrainNowUtils.prototype = {
     initialize: function() {
     },
 
+	// Função para mostrar o que o aplicante não se inscreveu
 	refQualTraining: function () {
 
 		var trainings = [];
@@ -25,7 +26,7 @@ TrainNowUtils.prototype = {
 			grEnrolled.addQuery("opened_by", gs.getUserID());
 			grEnrolled.addQuery("training", grTrainings.sys_id);
 			grEnrolled.query();
-			if(!grEnrolled.next()){
+			if(!grEnrolled.next() || grEnrolled.getValue("state") == "4"){
                 trainings.push(grTrainings.getUniqueValue());
             }
 		}
@@ -41,14 +42,14 @@ TrainNowUtils.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-06 19:29:11</sys_created_on>
         <sys_id>3ff540b7c35832101d20d60d05013122</sys_id>
-        <sys_mod_count>41</sys_mod_count>
+        <sys_mod_count>47</sys_mod_count>
         <sys_name>TrainNowUtils</sys_name>
         <sys_package display_value="TrainNow" source="x_1812797_trainnow">b56462a7c35032101d20d60d050131b6</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="TrainNow">b56462a7c35032101d20d60d050131b6</sys_scope>
         <sys_update_name>sys_script_include_3ff540b7c35832101d20d60d05013122</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 10:25:39</sys_updated_on>
+        <sys_updated_on>2025-10-07 10:54:30</sys_updated_on>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>3ff540b7c35832101d20d60d05013122</id>
