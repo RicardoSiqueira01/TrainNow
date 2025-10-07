@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
     <sys_script_include action="INSERT_OR_UPDATE">
-        <access>package_private</access>
+        <access>public</access>
         <active>true</active>
         <api_name>x_1812797_trainnow.TrainNowUtils</api_name>
         <caller_access/>
@@ -15,31 +15,40 @@ TrainNowUtils.prototype = {
     },
 
 	refQualTraining: function () {
-		var trainingsToBeShown = [];
+
+		var trainings = [];
 		var grTrainings = new GlideRecord("x_1812797_trainnow_training_schedule");
 		grTrainings.query();
 
 		while(grTrainings.next()){
-			
-			trainingsToBeShown.push(grTrainings.getUniqueValue());
-			
+			var grEnrolled = new GlideRecord("x_1812797_trainnow_training_enrollment");
+			grEnrolled.addQuery("opened_by", gs.getUserID());
+			grEnrolled.addQuery("training", grTrainings.sys_id);
+			grEnrolled.query();
+			if(!grEnrolled.next()){
+                trainings.push(grTrainings.getUniqueValue());
+            }
 		}
+
+		return "sys_idIN" + trainings.join(",");
+
 	},
 
     type: 'TrainNowUtils'
-};]]></script>
+};
+]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-06 19:29:11</sys_created_on>
         <sys_id>3ff540b7c35832101d20d60d05013122</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_name>TrainNowUtils</sys_name>
         <sys_package display_value="TrainNow" source="x_1812797_trainnow">b56462a7c35032101d20d60d050131b6</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="TrainNow">b56462a7c35032101d20d60d050131b6</sys_scope>
         <sys_update_name>sys_script_include_3ff540b7c35832101d20d60d05013122</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-06 19:29:11</sys_updated_on>
+        <sys_updated_on>2025-10-07 10:25:39</sys_updated_on>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>3ff540b7c35832101d20d60d05013122</id>

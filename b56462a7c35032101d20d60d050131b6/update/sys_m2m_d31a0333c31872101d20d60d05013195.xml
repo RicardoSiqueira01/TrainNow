@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>x_1812797_trainnow_training_enrollment</from_table>
+        <m2m_from_field>x_1812797_trainnow_training_enrollment</m2m_from_field>
+        <m2m_from_label>Training Schedules</m2m_from_label>
+        <m2m_table>x_1812797_trainnow_m2m_x_1812797_tr_x_1812797_tr</m2m_table>
+        <m2m_to_field>x_1812797_trainnow_training_schedule</m2m_to_field>
+        <m2m_to_label>Training Enrollments</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-07 09:37:36</sys_created_on>
+        <sys_id>d31a0333c31872101d20d60d05013195</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1812797_trainnow_m2m_x_1812797_tr_x_1812797_tr</sys_name>
+        <sys_package display_value="TrainNow" source="x_1812797_trainnow">b56462a7c35032101d20d60d050131b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainNow">b56462a7c35032101d20d60d050131b6</sys_scope>
+        <sys_update_name>sys_m2m_d31a0333c31872101d20d60d05013195</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-07 09:37:36</sys_updated_on>
+        <to_table>x_1812797_trainnow_training_schedule</to_table>
+    </sys_m2m>
+</record_update>

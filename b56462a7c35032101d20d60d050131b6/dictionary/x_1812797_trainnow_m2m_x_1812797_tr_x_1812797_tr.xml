@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="223a87ffc3d472101d20d60d05013173" label="x_1812797_trainnow_m2m_Training Enrollments_Training Schedules" max_length="40" name="x_1812797_trainnow_m2m_x_1812797_tr_x_1812797_tr" type="collection">
+        <element attributes="encode_utf8=false" label="Training Enrollments" max_length="32" name="x_1812797_trainnow_training_enrollment" reference="x_1812797_trainnow_training_enrollment" type="reference"/>
+        <element attributes="encode_utf8=false" label="Training Schedules" max_length="32" name="x_1812797_trainnow_training_schedule" reference="x_1812797_trainnow_training_schedule" type="reference"/>
+    </element>
+</database>

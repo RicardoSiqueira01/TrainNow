@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="061873a3c31832101d20d60d0501317d" max_length="40" name="x_1812797_trainnow_training_schedule" type="collection">
+        <element display="true" label="Name" max_length="80" name="name" type="string"/>
+        <element label="Course" max_length="32" name="course" reference="x_1812797_trainnow_courses" type="reference"/>
+        <index name="index">
+            <element name="course"/>
+        </index>
+    </element>
+</database>
